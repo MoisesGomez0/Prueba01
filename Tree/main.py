@@ -1,0 +1,13 @@
+from Tree import *
+arbol = Tree()
+print(arbol.add(1))
+print(arbol.add(2))
+print(arbol.add(3,2))
+print(arbol.add(4,2))
+print(arbol.add(5,2))
+print(arbol.add(10,4))
+print(arbol.add(15,10))
+print(arbol.add(20,15))
+print(arbol.add(255,20))
+print(arbol.add(255,-1))
+arbol.TSVToFile(arbol.root,"Archivo.tsv")
