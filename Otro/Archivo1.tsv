@@ -1,0 +1,11 @@
+ROOT/ 
+	Intel/ 
+		GraphicsConfig 
+	ProgramFile/ 
+		MicrosoftOffice/ 
+		Minecraft/ 
+		VisualCode/ 
+	User/ 
+		defaultUser()/ 
+		NombrePC/ 
+		UserConfig 

@@ -133,7 +133,7 @@ class LinkedList:
         if(n == 0):
             temp = self.first
             self.first = Node(value)
-            self.firt.next = temp
+            self.first.next = temp
             return True
         elif(n>1):
             count = 0
